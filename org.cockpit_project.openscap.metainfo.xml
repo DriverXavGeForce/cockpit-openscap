@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>org.cockpit_project.openscap</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>OpenSCAP</name>
+  <summary>OpenSCAP cockpit module</summary>
+  <description>
+    <p>
+      This module is an Cockpit OpenSCAP module
+    </p>
+  </description>
+  <extends>org.cockpit_project.cockpit</extends>
+  <launchable type="cockpit-manifest">openscap</launchable>
+  <url type="homepage">https://github.com/cockpit-project/openscap</url>
+  <url type="bugtracker">https://github.com/cockpit-project/openscap/issues</url>
+  <update_contact>xavier.coulon@suse.com</update_contact>
+  <developer id="org.cockpit-project">
+    <name>Cockpit Project</name>
+  </developer>
+</component>
